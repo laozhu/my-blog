@@ -217,7 +217,7 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 ### [2017年9月8日](#inline-mathjax)
 
-支持行内的数学公式，使用两个 $$ 符号标识，如下：
+支持行内的数学公式，使用标记 `$...$` 包裹公式，如下：
 
 When \(a \ne 0\), there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
