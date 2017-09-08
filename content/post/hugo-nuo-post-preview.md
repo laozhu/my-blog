@@ -213,6 +213,15 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 由于不明原因可能无法访问。
 
+## 文章更新
+
+### [2017年9月8日](#inline-mathjax)
+
+支持行内的数学公式，使用两个 $$ 符号标识，如下：
+
+When \(a \ne 0\), there are two solutions to $ax^2 + bx + c = 0$ and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
 ## 参考资料
 
 1. <p id="ref01">[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)</p>
