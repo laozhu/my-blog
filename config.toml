@@ -36,7 +36,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   seotitle = "米老朱的博客 Ritchie Pub."
   subtitle = "~ 带着爱和梦想生活 ~"
   description = "这里是 @米老朱 的个人博客，记录他在互联网新世界探索的点点滴滴 This is melaozhu's personal blog, he takes note here while exploring the new world."
-  paginate = 10
+  paginate = 5
 
   # Choose your social networks
   email = "laozhu.me@gmail.com"
