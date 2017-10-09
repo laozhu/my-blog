@@ -158,7 +158,16 @@ if (document.getElementById('my-player') !== null) {
 
 主题使用了 [MathJax](https://www.mathjax.org/) 开源库来实现对数学公式的支持，使用 `$$` 标记。
 
-$$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
+<div>$$
+\left\{
+\begin{aligned}
+N & = pq \\
+\varphi(n) & = (p-1)(q-1)\\
+\end{aligned}
+\right.
+\Rightarrow 
+N - \varphi(n) + 1 = p + q
+$$</div>
 
 ## 10. JSFiddle
 
@@ -217,10 +226,10 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 ### [2017年9月8日](#inline-mathjax)
 
-支持行内的数学公式，使用标记 `$...$` 包裹公式，如下：
+支持行内的数学公式，使用标记 `$` 包裹公式，如下：
 
-When \(a \ne 0\), there are two solutions to $ax^2 + bx + c = 0$ and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+When `\(a \ne 0\)`, there are two solutions to `$ax^2 + bx + c = 0$` and they are
+<div>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</div>
 
 ## 参考资料
 
