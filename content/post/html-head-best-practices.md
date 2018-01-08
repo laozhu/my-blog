@@ -151,7 +151,7 @@ HTML 文档的一些元数据，包括：作者、描述、关键词和生成工
 favicon.ico 实际上是一个图片容器，里面至少应该包含 16x16，32x32，48x48 三个尺寸的 png 图片，我们可以使用 [ImageMagick](https://github.com/ImageMagick/ImageMagick) 工具在本地直接生成（生成之前需要对 png 图片进行压缩以减小尺寸）。
 
 ```bash
-$ convert favicon-16.png favicon-32.png favicon-64.png favicon.ico
+$ convert favicon-16.png favicon-32.png favicon-48.png favicon.ico
 ```
 
 *注意：apple-mobile-web-app-status-bar-style 值默认状态栏为白色，可设置为 black（黑色） 或者 black-translucent（灰色半透明）；mask-icon 引入的 svg 文件必须只有一个图层，并且 `viewBox` 属性应该为 "0 0 16 16"。*
