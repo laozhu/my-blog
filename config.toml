@@ -37,7 +37,14 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 # Add your own params here
 [params]
   author = "米老朱"
-  avatar = "/img/avatar.jpg"
+  bg = "images/grey-prism.svg"
+  avatar = "images/avatar.jpg"
+  favicon = "images/favicon.ico"
+  favicon16 = "images/favicon-16x16.png"
+  favicon32 = "images/favicon-32x32.png"
+  iconWindows = "images/tile-image-windows.png"
+  iconApple = "images/touch-icon-apple.png"
+  iconAndroid = "images/touch-icon-android.png"
   seotitle = "米老朱的博客 Ritchie Pub."
   subtitle = "~ 带着爱和梦想生活 ~"
   description = "这里是 @米老朱 的个人博客，记录他在互联网新世界探索的点点滴滴 This is melaozhu's personal blog, he takes note here while exploring the new world."
@@ -49,7 +56,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   twitter = "melaozhu"
   linkedin = "melaozhu"
   weibo = "shiaohoo"
-  wechat= "/img/qrcode.jpg"  # Replace with your wechat qrcode image
+  wechat= "images/qrcode.jpg"  # Replace with your wechat qrcode image
   # facebook = "melaozhu"
   # google = "109063353665074282689"
   # instagram = "melaozhu"
@@ -65,9 +72,13 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # zhihu = "melaozhu"
   # douban = "melaozhu"
   # bilibili = "13395348"
+  # stackoverflow = "laozhu"
+  # codesandbox = "melaozhu"
+  # npm = "laozhu"
+  # reddit = "melaozhu"
 
   # Changyan Comments (China Only)
-  changyan = true
+  changyan = false
   changyanId = "cyt3toRiB"
   changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
