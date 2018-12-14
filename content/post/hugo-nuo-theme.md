@@ -29,7 +29,7 @@ date: 2017-08-04
 - [x] 支持百度统计和 Google 分析工具快速集成
 - [x] 支持主流搜索引擎站长工具的网站快速验证
 - [x] 支持搜狐畅言和 Disqus 评论系统（二选一）
-- [x] 大量第三方 shortcodes 支持（如：网易云音乐）
+- [x] 大量第三方 shortcodes 支持（如：~~网易云音乐~~）
 
 详细的特性可以查看主题的 GitHub 代码仓库 → [laozhu/hugo-nuo](https://github.com/laozhu/hugo-nuo) 相关说明，如果仍有不清楚的地方，可以在本站回复博主，或者去代码仓库给我提个 issue。
 
@@ -84,7 +84,7 @@ weight: 40
 主题的样式使用 `sass` 组织，脚本使用 `rollup` 打包，图片和字体不依赖，使用 `cpx` 直接复制即可，使用 `ImageOptim` 压缩各种格式的图片，执行以下命令安装非 `node` 环境下的依赖包：
 
 ```bash
-$ brew cask install imageoptim 
+$ brew cask install imageoptim
 $ sudo gem install sass
 $ sudo pip install pygments
 ```

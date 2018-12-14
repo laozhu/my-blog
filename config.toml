@@ -1,4 +1,4 @@
-baseURL = "https://laozhu.me"
+baseURL = ""
 languageCode = "zh-Hans"
 title = "Ritchie Pub."
 theme = "hugo-nuo"

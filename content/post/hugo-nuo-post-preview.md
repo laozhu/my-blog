@@ -122,9 +122,9 @@ if (document.getElementById('my-player') !== null) {
 
 ![这是一只梅花鹿](/media/posts/hugo-nuo-post-preview/01.jpg)
 
-带标题的图片，如下图👇
+带标题的图片（zoomable），如下图👇
 
-{{% figure src="/media/posts/hugo-nuo-post-preview/01.jpg" alt="这是一只梅花鹿" title="显然，这是一只梅花鹿" %}}
+{{% figure src="/media/posts/hugo-nuo-post-preview/01.jpg" alt="这是一只梅花鹿" title="显然，这是一只梅花鹿" class="zoomable" %}}
 
 ## 8. 表格
 
@@ -165,7 +165,7 @@ N & = pq \\
 \varphi(n) & = (p-1)(q-1)\\
 \end{aligned}
 \right.
-\Rightarrow 
+\Rightarrow
 N - \varphi(n) + 1 = p + q
 $$</div>
 
